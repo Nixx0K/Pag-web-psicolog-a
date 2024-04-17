@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portal Funcionarios</title>
+        <link rel="stylesheet" href="\assets\CSS\style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <nav class="header">
+                <h5 class="header_titulo"><a href="\index.html">Javiera De la Fuente V.</a></h5>
+                <div class="header_menu">
+                    <li class="header_itemlist1">
+                        <a href="\assets\html\Agenda.html">
+                            <i class="bi bi-calendar4-week" title="agenda"></i>
+                            <b>Agenda tu hora</b>
+                        </a>
+                    </li>
+                    <li class="header_itemlis2">
+                        <a href="\assets\html\contacto.html">
+                            <i class="bi bi-person-raised-hand" title="contactanos"></i>
+                            <b>Contáctanos</b>
+                        </a>
+                    </li>
+                    <li class="header_itemlis3">
+                        <a href="\assets/html/login.html">
+                            <i class="bi bi-door-open" title="login"></i>
+                            <b>Ingresa</b>
+                        </a>
+                    </li>
+                </div>
+            </nav>
+    </header>
+    
+    <!--Banner-->
+    <div class="banner">
+        <h1 >Clinica Psicologica Infantil</h1>
+    </div>
+        
+        <!--Barra menu-->
+        <nav class="Menu">
+            <ol>
+                <li><a href="\index.html"><i class="bi bi-house-door"></i>Inicio</a></li>
+                <li><a href="consultas_psico.html">Consultas psicologicas</a></li>
+                <li><a href="nosotros.html">Acerca de nosotros</a></li>
+                <li><a href="inf_pacientes.html">Informacion al paciente</a></li>
+            </ol>
+        </nav>
+
+        <!--Login-->
+        <main>
+            <div class="contenedor">
+                <fieldset>
+                    <legend><h1>Login</h1></legend>
+                    <form id="forma" name="forma" method="post">
+                        <div class="login">
+                            <label for="usuario">Usuario:</label>
+                            <input type="text" id="usuario" name="usuario" required="true" />
+                        </div>
+                        <div class="login">
+                            <label for="contraseña">Contraseña:</label>
+                            <input type="password" id="contraseña" name="contraseña" required="true"/>
+                        </div>
+                        <div class="boton">
+                            <input type="submit" value="Enviar"/>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </main>
+        
+        <!--Footer-->
+        <footer>
+            <div class="contenedor_de_mapa">
+                <fieldset class="marco_mapa">
+                    <legend class="leyenda_mapa"><strong>Encuentranos En</strong></legend>
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.6697414784485!2d-70.62066272438402!3d-33.43185359655991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf7cfb415c4b%3A0x3af1ceef6c894305!2sBarbazul%20Manuel%20Montt!5e0!3m2!1ses!2scl!4v1709944966710!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </fieldset>
+            </div>
+            <div class="redes_sociales">
+                <fieldset class="marco_redes">
+                    <legend class="leyenda_redes"><strong>Nuestras Redes</strong></legend>
+                    <ol class="lista_redes">
+                        <li><a href=""><i class="bi bi-facebook" title="facebook"></i></a></li>
+                        <li><a href=""><i class="bi bi-whatsapp" title="whatsapp"></i></a></li>
+                        <li><a href=""><i class="bi bi-twitter-x" title="twitter-x"></i></a></li>
+                        <li><a href=""><i class="bi bi-instagram" title="instagram"></i></a></li>
+                        <li><a href=""><i class="bi bi-linkedin" title="linkedin"></i></a></li>
+                    </ol>
+                </fieldset>
+                <ol class="icon_Contacto">
+                    <li class="lista_contacto">
+                        <a href="">
+                            <i class="bi bi-geo-alt" title="ubicacion"></i>
+                        </a><strong>Av. Valenzuela LLanos</strong>
+                    </li>
+                    <li class="lista_contacto">
+                        <a href="">
+                            <i class="bi bi-phone-vibrate" title="telefono"></i>
+                        </a><strong>+ 56 9 78787857</strong>
+                    </li>
+                </ol>
+            </div>
+        </footer> 
+
+
+    </body>
+</html>
